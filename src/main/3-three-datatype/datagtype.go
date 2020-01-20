@@ -28,7 +28,14 @@ func main() {
 	var exampleUint32 uint32 = 4 // 32 bit is 4 byte
 	var exampleUint64 uint64 = 5 // 64 bit is 8 byte
 
-	var exampleUintptr uintptr = 6
+	//var exampleUintptr uintptr = exampleUint64
+	fmt.Println(exampleInt, exampleInt8, exampleInt16, exampleInt32, exampleInt64, exampleUint, exampleUint8, exampleUint16, exampleUint32, exampleUint64)
 
-	fmt.Println(int)
+	// var exampleFloat32 float32 = 3.14
+	// var exampleFloat64 float64 = 3.141
+	// var complex64 complex64
+	// var complex64 complex128
+
+	// byte = uint8
+	// rune = int32
 }
